@@ -1,0 +1,62 @@
+{
+    "manifestVersion": 1,
+    "id": "VersiontoSemVer2",
+    "name": "Assembly Version to SemVer 2.0",
+    "version": "1.0.2",
+    "publisher": "Coolicky",
+    "targets": [{
+        "id": "Microsoft.VisualStudio.Services"
+    }],
+    "description": "A build task that reads the .Net assembly version and makes it a build variable.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "AssemblyInfo",
+        "Version",
+        "Build Variables"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "files": [{
+        "path": "VersiontoSemVer2"
+    }],
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/Coolicky/VersiontoSemVer-2.0"
+        },
+        "support": {
+            "uri": "https://github.com/Coolicky/VersiontoSemVer-2.0/issues"
+        }
+    },
+    "screenshots": [{
+            "path": "images/screenshot1.png"
+        },
+        {
+            "path": "images/screenshot2.png"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/Coolicky/VersiontoSemVer-2.0"
+    },
+    "contributions": [{
+        "id": "assembly-version-build-release-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "VersiontoSemVer2"
+        }
+    }]
+}
