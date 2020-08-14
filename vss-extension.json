@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "VersiontoSemVer2",
     "name": "Assembly Version to SemVer 2.0",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "Coolicky",
     "targets": [{
         "id": "Microsoft.VisualStudio.Services"
@@ -49,6 +49,9 @@
         "type": "git",
         "uri": "https://github.com/Coolicky/VersiontoSemVer-2.0"
     },
+    "galleryFlags": [
+        "Public"
+    ],
     "contributions": [{
         "id": "assembly-version-build-release-task",
         "type": "ms.vss-distributed-task.task",
